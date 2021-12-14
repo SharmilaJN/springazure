@@ -9,7 +9,7 @@ public class TestController {
 
 	@GetMapping(value="/getmessage")
 	public String getMessage() {
-		return "Hello your app deployed successfully!";
+		return "Hello your application deployed successfully!";
 	}
 	
 }
